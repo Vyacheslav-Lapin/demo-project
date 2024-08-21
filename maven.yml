@@ -1,0 +1,13 @@
+spring-boot.run.jvmArguments: --enable-preview
+updatePomFile: true
+flatten.mode: resolveCiFriendliesOnly
+
+maven.compiler:
+  showDeprecation: true
+  showWarnings: true
+
+lombok:
+  addOutputDirectory: false
+  sourceDirectory: src/main/java
+  testSourceDirectory: src/test/java
+  testOutputDirectory: target/generated-test-sources/delomboked

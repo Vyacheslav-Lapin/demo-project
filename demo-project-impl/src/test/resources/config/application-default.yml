@@ -1,0 +1,5 @@
+my-properties:
+  port: 8091
+#  host: basdjahsdf
+
+my-properties2.host: my.site.com

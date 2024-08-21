@@ -1,0 +1,13 @@
+mail.credentials:
+  auth-method: basic
+  username: user
+  password: qwerty
+
+spring:
+  sql.init.mode: always
+  jpa.generate-ddl: true
+
+management:
+  appoptics:
+    metrics:
+      export: ${POSTGRES_USER:pg_user}
